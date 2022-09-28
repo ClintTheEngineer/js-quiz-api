@@ -1,0 +1,21 @@
+{
+  "name": "quiz-api",
+  "version": "1.0.0",
+  "description": "Question list for JS quiz",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Clint Alexander",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "joi": "^17.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
